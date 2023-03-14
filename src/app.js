@@ -25,14 +25,14 @@ app.use(express.static(path.join(__dirname,'../public')))
 app.get('',(req,res)=>{
     res.render('index',{
         title:'Weather App',
-        name:'Akash sharma'
+        name:'Vikram pratap singh'
     })
 })
 
 app.get('/about',(req,res)=>{
     res.render('about',{
         title:'About Me',
-        name:'Akash sharma'
+        name:'Vikram pratap singh'
     })
 })
 
@@ -40,7 +40,7 @@ app.get('/help',(req,res)=>{
     res.render('help',{
         help:'What can i help You',
         title:'Help',
-        name:'Akash sharma'
+        name:'Vikram pratap singh'
     })
 })
 
