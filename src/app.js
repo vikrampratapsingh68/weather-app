@@ -90,7 +90,7 @@ app.get('/products',(req,res)=>{
 app.get('/help/*',(req,res)=>{
      res.render('404',{
          title:'404 help',
-         name:'Vikram pratap',
+         name:'Vikram pratap singh',
          errormessage:'Help article Not found'
      })
 })
